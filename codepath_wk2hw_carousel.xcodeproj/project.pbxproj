@@ -18,6 +18,9 @@
 		042E94E61C69763A004D8B23 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E94E51C69763A004D8B23 /* Common.swift */; };
 		04F06AC11C71359300EFCC77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AC01C71359300EFCC77 /* LoginViewController.swift */; };
 		04F06AC31C714D4200EFCC77 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AC21C714D4200EFCC77 /* TutorialViewController.swift */; };
+		04F06AC51C715AF400EFCC77 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AC41C715AF400EFCC77 /* TimelineViewController.swift */; };
+		04F06AC71C715D3800EFCC77 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AC61C715D3800EFCC77 /* ConversationsViewController.swift */; };
+		04F06AC91C715D4600EFCC77 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AC81C715D4600EFCC77 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		042E94E51C69763A004D8B23 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		04F06AC01C71359300EFCC77 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		04F06AC21C714D4200EFCC77 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		04F06AC41C715AF400EFCC77 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		04F06AC61C715D3800EFCC77 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		04F06AC81C715D4600EFCC77 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,9 @@
 				042E94E51C69763A004D8B23 /* Common.swift */,
 				042E94B71C69734B004D8B23 /* ViewController.swift */,
 				042E94B91C69734B004D8B23 /* Main.storyboard */,
+				04F06AC81C715D4600EFCC77 /* SettingsViewController.swift */,
+				04F06AC61C715D3800EFCC77 /* ConversationsViewController.swift */,
+				04F06AC41C715AF400EFCC77 /* TimelineViewController.swift */,
 				04F06AC21C714D4200EFCC77 /* TutorialViewController.swift */,
 				042E94E31C69762A004D8B23 /* IntroViewController.swift */,
 				042E94BC1C69734B004D8B23 /* Assets.xcassets */,
@@ -271,9 +280,12 @@
 				042E94E61C69763A004D8B23 /* Common.swift in Sources */,
 				042E94E41C69762A004D8B23 /* IntroViewController.swift in Sources */,
 				042E94B81C69734B004D8B23 /* ViewController.swift in Sources */,
+				04F06AC71C715D3800EFCC77 /* ConversationsViewController.swift in Sources */,
 				04F06AC11C71359300EFCC77 /* LoginViewController.swift in Sources */,
+				04F06AC51C715AF400EFCC77 /* TimelineViewController.swift in Sources */,
 				04F06AC31C714D4200EFCC77 /* TutorialViewController.swift in Sources */,
 				042E94B61C69734B004D8B23 /* AppDelegate.swift in Sources */,
+				04F06AC91C715D4600EFCC77 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

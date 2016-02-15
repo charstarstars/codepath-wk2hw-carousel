@@ -148,6 +148,10 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
             })
         }
     }
+    
+    @IBAction func didTapBackButton(sender: UIButton) {
+        navigationController?.popViewControllerAnimated(true)
+    }
     /*
     // MARK: - Navigation
 

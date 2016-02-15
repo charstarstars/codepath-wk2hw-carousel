@@ -1,5 +1,5 @@
 //
-//  TutorialViewController.swift
+//  ConversationsViewController.swift
 //  codepath_wk2hw_carousel
 //
 //  Created by Ariel Liu on 2/14/16.
@@ -8,37 +8,23 @@
 
 import UIKit
 
-class TutorialViewController: UIViewController {
+class ConversationsViewController: UIViewController {
 
-    @IBOutlet weak var pageControl: UIPageControl!
-    
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var scrollView: UIScrollView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        scrollView.contentSize = CGSize(width: 1280, height: 568)
-        
+
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
         // Dispose of any resources that can be recreated.
     }
     
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView!) {
-        // Get the current page based on the scroll offset
-        
-        let page : Int = Int(round(scrollView.contentOffset.x / 320))
-        
-        // Set the current page, so the dots will update
-        pageControl.currentPage = page
+
+    @IBAction func didTapToGoBack(sender: UIButton) {
+        navigationController?.popToRootViewControllerAnimated(true)
     }
-
-
     /*
     // MARK: - Navigation
 
