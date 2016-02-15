@@ -14,6 +14,10 @@
 		042E94C01C69734B004D8B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042E94BE1C69734B004D8B23 /* LaunchScreen.storyboard */; };
 		042E94CB1C69734B004D8B23 /* codepath_wk2hw_carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E94CA1C69734B004D8B23 /* codepath_wk2hw_carouselTests.swift */; };
 		042E94D61C69734B004D8B23 /* codepath_wk2hw_carouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E94D51C69734B004D8B23 /* codepath_wk2hw_carouselUITests.swift */; };
+		042E94E41C69762A004D8B23 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E94E31C69762A004D8B23 /* IntroViewController.swift */; };
+		042E94E61C69763A004D8B23 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E94E51C69763A004D8B23 /* Common.swift */; };
+		04F06AC11C71359300EFCC77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AC01C71359300EFCC77 /* LoginViewController.swift */; };
+		04F06AC31C714D4200EFCC77 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AC21C714D4200EFCC77 /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		042E94D11C69734B004D8B23 /* codepath_wk2hw_carouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codepath_wk2hw_carouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042E94D51C69734B004D8B23 /* codepath_wk2hw_carouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_wk2hw_carouselUITests.swift; sourceTree = "<group>"; };
 		042E94D71C69734B004D8B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042E94E31C69762A004D8B23 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		042E94E51C69763A004D8B23 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		04F06AC01C71359300EFCC77 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04F06AC21C714D4200EFCC77 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		042E94B41C69734B004D8B23 /* codepath_wk2hw_carousel */ = {
 			isa = PBXGroup;
 			children = (
+				04F06AC01C71359300EFCC77 /* LoginViewController.swift */,
 				042E94B51C69734B004D8B23 /* AppDelegate.swift */,
+				042E94E51C69763A004D8B23 /* Common.swift */,
 				042E94B71C69734B004D8B23 /* ViewController.swift */,
 				042E94B91C69734B004D8B23 /* Main.storyboard */,
+				04F06AC21C714D4200EFCC77 /* TutorialViewController.swift */,
+				042E94E31C69762A004D8B23 /* IntroViewController.swift */,
 				042E94BC1C69734B004D8B23 /* Assets.xcassets */,
 				042E94BE1C69734B004D8B23 /* LaunchScreen.storyboard */,
 				042E94C11C69734B004D8B23 /* Info.plist */,
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042E94E61C69763A004D8B23 /* Common.swift in Sources */,
+				042E94E41C69762A004D8B23 /* IntroViewController.swift in Sources */,
 				042E94B81C69734B004D8B23 /* ViewController.swift in Sources */,
+				04F06AC11C71359300EFCC77 /* LoginViewController.swift in Sources */,
+				04F06AC31C714D4200EFCC77 /* TutorialViewController.swift in Sources */,
 				042E94B61C69734B004D8B23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +500,7 @@
 				042E94DC1C69734B004D8B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042E94DD1C69734B004D8B23 /* Build configuration list for PBXNativeTarget "codepath_wk2hw_carouselTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				042E94DF1C69734B004D8B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042E94E01C69734B004D8B23 /* Build configuration list for PBXNativeTarget "codepath_wk2hw_carouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				042E94E21C69734B004D8B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
